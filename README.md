@@ -3,7 +3,31 @@
 ## Project Introduction
 This project focuses on detecting offensive speech using various text vectorisation techniques and machine learning models. The primary objective is to compare the performance of three different vectorisation methods—TF-IDF, Word2Vec, and Sentence Transformers—on a binary classification task (offensive speech vs. non-offensive speech). The performance of these vectorisation methods is evaluated using three different classifiers: Logistic Regression, Support Vector Machine (SVM), and Random Forest.
 
-The data was obtained from the [Hate Speech and Offensive Language Dataset](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset) on Kaggle
+## Data
+- 8326 tweets manually labelled by CrowdFlower users
+- Dataset: [Hate Speech and Offensive Language Dataset](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset) on Kaggle
+
+![Class Distribution Plot](plots/class_distribution_plot.png)
+
+## Results
+
+|                       |                     | accuracy | precision |   recall |       f1 |
+|----------------------:|--------------------:|---------:|----------:|---------:|---------:|
+|                TF-IDF | Logistic Regression | 0.939106 |  0.972814 | 0.903632 | 0.936859 |
+|                       |                 SVM | 0.948955 |  0.975104 | 0.921582 | 0.947527 |
+|                       |       Random Forest | 0.946912 |  0.966593 | 0.925818 | 0.945685 |
+|              Word2Vec | Logistic Regression | 0.843141 |  0.848128 | 0.836022 | 0.841914 |
+|                       |                 SVM | 0.855872 |  0.865597 | 0.842845 | 0.853873 |
+|                       |       Random Forest | 0.873286 |  0.893094 | 0.848054 | 0.869846 |
+| Sentence Transformers | Logistic Regression | 0.919169 |  0.937130 | 0.898897 | 0.917542 |
+|                       |                 SVM | 0.922171 |  0.944822 | 0.897017 | 0.920205 |
+|                       |       Random Forest | 0.897670 |  0.930286 | 0.860301 | 0.893745 |
+
+### Radar Charts
+| Logistic Regression | SVM | Random Forest |
+|-----------------------|-----------------------|-----------------------|
+| ![Logistic Regression Radar](plots/logreg_radar.png) | ![SVM Radar](plots/SVM_radar.png) | ![RF Radar](plots/RF_radar.png) |
+
 
 ## Notebooks Overview
 
