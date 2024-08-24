@@ -7,14 +7,14 @@ The data was obtained from the [Hate Speech and Offensive Language Dataset](http
 
 ## Notebooks Overview
 
-### 1. `01_data_exploration_and_preprocessing.ipynb`
+### `01_data_exploration_and_preprocessing.ipynb`
 - Objective: This notebook is dedicated to exploring the dataset and preparing the data for further processing.
 - Contents:
   - Data Loading: Load the dataset and perform initial inspections.
   - Class Distribution: Analyse the distribution of classes 
   - Data Cleaning: Handle missing values, remove usernames, and preprocess text (e.g., lowercasing, tokenisation).
 
-### 2. `02_feature_extraction.ipynb`
+### `02_feature_extraction.ipynb`
 - Objective: This notebook focuses on generating the feature representations using different vectorisation methods.
 - Contents:
   - TF-IDF Vectorisation: Generate TF-IDF vectors for the text data.
@@ -22,7 +22,7 @@ The data was obtained from the [Hate Speech and Offensive Language Dataset](http
   - Sentence Transformers Embeddings: Generate embeddings using pre-trained Sentence Transformers models.
   - Saving Features: Save the generated feature matrices for later use in model training and evaluation.
 
-### 3. `03_model_training_and_evaluation.ipynb`
+### `03_model_training_and_evaluation.ipynb`
 - Objective: This notebook trains and evaluates machine learning models using the different vectorisation methods.
 - Contents:
   - Model Training: Train Logistic Regression, SVM, and Random Forest classifiers using TF-IDF, Word2Vec, and Sentence Transformers features.
@@ -30,7 +30,7 @@ The data was obtained from the [Hate Speech and Offensive Language Dataset](http
   - Evaluation Metrics: Compute accuracy, precision, recall, and F1-score for each model and vectorisation method.
   - Results Storage: Store the results in a structured format for later analysis.
 
-### 4. `04_results_visualisation_and_interpretation.ipynb`
+### `04_results_visualisation_and_interpretation.ipynb`
 - Objective: This notebook visualizes and interprets the results of the different models and vectorisation methods.
 - Contents:
   - Radar Charts: Use radar charts to compare the performance metrics for individual classifiers or vectorisation methods.
