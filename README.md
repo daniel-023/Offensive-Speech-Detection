@@ -11,7 +11,7 @@ This project focuses on detecting offensive speech using various text vectorisat
 
 ## Results
 
-|                       |                     | Accuracy | Precision |   Recall |       F1 |
+|                       |                     | Accuracy | Precision |  Recall  |    F1    |
 |----------------------:|--------------------:|---------:|----------:|---------:|---------:|
 |                TF-IDF | Logistic Regression | 0.939106 |  0.972814 | 0.903632 | 0.936859 |
 |                       |                 SVM | 0.948955 |  0.975104 | 0.921582 | 0.947527 |
@@ -24,9 +24,13 @@ This project focuses on detecting offensive speech using various text vectorisat
 |                       |       Random Forest | 0.897670 |  0.930286 | 0.860301 | 0.893745 |
 
 ### Heat Maps
-| Accuracy                                            | Precision                                           | Recall                                              | F1                                                  |
-| --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
-| ![Accuracy Heat Map](plots/accuracy_heatmap.png)    | ![Precision Heat Map](plots/precision_heatmap.png)  | ![Recall Heat Map](plots/recall_heatmap.png)        | ![F1 Heat Map](plots/f1_heatmap.png)                |
+| Accuracy                                            | Precision                                           | 
+| --------------------------------------------------- | --------------------------------------------------- | 
+| ![Accuracy Heat Map](plots/accuracy_heatmap.png)    | ![Precision Heat Map](plots/precision_heatmap.png)  | 
+
+| Recall                                              | F1                                                  |
+| --------------------------------------------------- | --------------------------------------------------- |
+| ![Recall Heat Map](plots/recall_heatmap.png)        | ![F1 Heat Map](plots/f1_heatmap.png)                |
 
 ### Radar Charts
 **Logistic Regression**
