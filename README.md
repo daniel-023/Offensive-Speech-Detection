@@ -24,10 +24,9 @@ This project focuses on detecting offensive speech using various text vectorisat
 |                       |       Random Forest | 0.897670 |  0.930286 | 0.860301 | 0.893745 |
 
 ### Radar Charts
-| Logistic Regression | SVM | Random Forest |
-|-----------------------|-----------------------|-----------------------|
-| ![Logistic Regression Radar](plots/logreg_radar.png) | ![SVM Radar](plots/SVM_radar.png) | ![RF Radar](plots/RF_radar.png) |
-
+| Logistic Regression | ![Logistic Regression Radar](plots/logreg_radar.png) | 
+| SVM | ![SVM Radar](plots/SVM_radar.png) |
+| Random Forest | ![RF Radar](plots/RF_radar.png) |
 
 ## Notebooks Overview
 
