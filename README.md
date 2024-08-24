@@ -18,7 +18,7 @@ The data was obtained from the [Hate Speech and Offensive Language Dataset](http
 - Objective: This notebook focuses on generating the feature representations using different vectorisation methods.
 - Contents:
   - TF-IDF Vectorisation: Generate TF-IDF vectors for the text data.
-  - Word2Vec Embeddings: Train or load Word2Vec embeddings and create sentence-level vectors.
+  - Word2Vec Embeddings: Train Word2Vec embeddings and create sentence-level vectors.
   - Sentence Transformers Embeddings: Generate embeddings using pre-trained Sentence Transformers models.
   - Saving Features: Save the generated feature matrices for later use in model training and evaluation.
 
