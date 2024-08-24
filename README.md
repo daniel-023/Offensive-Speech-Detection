@@ -33,13 +33,9 @@ This project focuses on detecting offensive speech using various text vectorisat
 | ![Recall Heat Map](plots/recall_heatmap.png)        | ![F1 Heat Map](plots/f1_heatmap.png)                |
 
 ### Radar Charts
-**Logistic Regression**
 ![Logistic Regression Radar](plots/logreg_radar.png) 
-**SVM**
 ![SVM Radar](plots/SVM_radar.png) 
-**Random Forest**
 ![RF Radar](plots/RF_radar.png) 
-
 
 ## Notebooks Overview
 
