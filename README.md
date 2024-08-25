@@ -63,8 +63,8 @@ This project focuses on detecting offensive speech using various text vectorisat
   - Results Storage: Store the results in a structured format for later analysis.
 
 ### `04_results_visualisation_and_interpretation.ipynb`
-- Objective: This notebook visualizes and interprets the results of the different models and vectorisation methods.
+- Objective: This notebook visualises and interprets the results of the different models and vectorisation methods.
 - Contents:
   - Radar Charts: Use radar charts to compare the performance metrics for individual classifiers or vectorisation methods.
-  - Heatmaps: Generate heatmaps to visualize the performance metrics (accuracy, precision, recall, F1-score) across different vectorisation methods and classifiers.
+  - Heatmaps: Generate heatmaps to visualise the performance metrics (accuracy, precision, recall, F1-score) across different vectorisation methods and classifiers.
   - Analysis: Interpret the results, highlighting the strengths and weaknesses of each approach.
