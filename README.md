@@ -4,8 +4,8 @@
 This project focuses on detecting offensive speech using various text vectorisation techniques and machine learning models. The primary objective is to compare the performance of three different vectorisation methods—TF-IDF, Word2Vec, and Sentence Transformers—on a binary classification task (offensive speech vs. non-offensive speech). The performance of these vectorisation methods is evaluated using three different classifiers: Logistic Regression, Support Vector Machine (SVM), and Random Forest.
 
 ## Data
-- 8326 tweets manually labelled by CrowdFlower users
-- Dataset: [Hate Speech and Offensive Language Dataset](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset) on Kaggle
+- 8326 manually labelled tweets  
+- Dataset: [Hate Speech and Offensive Language Dataset](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset) 
 
 ![Class Distribution Plot](plots/class_distribution_plot.png)
 
