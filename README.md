@@ -1,7 +1,7 @@
 # Offensive Speech Detection Using Different Text Vectorisation Techniques
 
 ## Project Introduction
-This project focuses on detecting offensive speech using various text vectorisation techniques and machine learning models. The primary objective is to compare the performance of three different vectorisation methods—TF-IDF, Word2Vec, and Sentence Transformers—on a binary classification task (offensive speech vs. non-offensive speech). The performance of these vectorisation methods is evaluated using three different classifiers: Logistic Regression, Support Vector Machine (SVM), and Random Forest.
+This project focuses on comparing the performance of three different vectorisation methods—TF-IDF, Word2Vec, and Sentence Transformers—on a binary classification task (offensive speech vs. non-offensive speech). The performance of these vectorisation methods is evaluated using three different classifiers: Logistic Regression, Support Vector Machine (SVM), and Random Forest. 
 
 ## Data
 - 8326 manually labelled tweets  
