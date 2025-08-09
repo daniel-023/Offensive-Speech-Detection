@@ -13,15 +13,15 @@ This project focuses on comparing the performance of three different vectorisati
 
 |                       |                     | Accuracy | Precision |  Recall  |    F1    |
 |----------------------:|--------------------:|---------:|----------:|---------:|---------:|
-|                TF-IDF | Logistic Regression | 0.94 |  0.97 | 0.90 | 0.94 |
-|                       |                 SVM | 0.95 |  0.98 | 0.92 | 0.95 |
-|                       |       Random Forest | 0.95 |  0.97 | 0.93 | 0.95 |
-|              Word2Vec | Logistic Regression | 0.84 |  0.85 | 0.84 | 0.84 |
-|                       |                 SVM | 0.86 |  0.87 | 0.84 | 0.85 |
-|                       |       Random Forest | 0.87 |  0.89 | 0.85 | 0.87 |
-| Sentence Transformers | Logistic Regression | 0.92 |  0.94 | 0.90 | 0.92 |
-|                       |                 SVM | 0.92 |  0.94 | 0.90 | 0.92 |
-|                       |       Random Forest | 0.90 |  0.93 | 0.86 | 0.89 |
+|                TF-IDF | Logistic Regression |   0.94   |    0.97   |   0.90   |   0.94   |
+|                       |                 SVM | **0.95** |  **0.98** |   0.92   | **0.95** |
+|                       |       Random Forest | **0.95** |    0.97   | **0.93** | **0.95** |
+|              Word2Vec | Logistic Regression |   0.84   |    0.85   |   0.84   |   0.84   |
+|                       |                 SVM |   0.86   |    0.87   |   0.84   |   0.85   |
+|                       |       Random Forest |   0.87   |    0.89   |   0.85   |   0.87   |
+| Sentence Transformers | Logistic Regression |   0.92   |    0.94   |   0.90   |   0.92   |
+|                       |                 SVM |   0.92   |    0.94   |   0.90   |   0.92   |
+|                       |       Random Forest |   0.90   |    0.93   |   0.86   |   0.89   |
 
 ### Heat Maps
 | Accuracy                                            | Precision                                           | 
